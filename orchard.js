@@ -150,12 +150,13 @@ console.log(days);
 // let galaTons = [32.5, 13, 26, 19.5, 39, 13, 26]
 // let pinkTons =[ 6.5, 32.5, 26, 13.5, 6.5, 32.5, 26]
 
+let fujiTons = fujiAcres.slice(fujiAcres * 6.5)
+console.log(fujiTons)
 
 
 
 
-
-// PROBLEM 5
+// PROBLEM 
 
 /*
     Next, calculate the total number of 
