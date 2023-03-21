@@ -71,11 +71,12 @@ console.log( totalAcres)
 */
 
 // CODE HERE
-let averageDailyAcres = 0;
+let averageDailyAcres = 7;
 for ( let i = 0; i < totalAcres.length; i++){
 totalAcres += averageDailyAcres[i];
-totalAcres / fujiAcres;
+
 }
+averageDailyAcres = totalAcres / averageDailyAcres
 console.log(averageDailyAcres)
 
 
@@ -111,12 +112,14 @@ console.log(averageDailyAcres)
 */
 
 let acresLeft = 174 
-let days = 0
+let days = 4
 
 // CODE HERE
-
-
-
+while( acresLeft > 0) {
+    days++;
+    acresLeft -= averageDailyAcres;
+}
+console.log(days);
 // PROBLEM 4
 
 /*
@@ -143,9 +146,9 @@ let days = 0
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+// let fujiTons =[13, 19.5, 19.5, 13, 13, 13, 6.5]
+// let galaTons = [32.5, 13, 26, 19.5, 39, 13, 26]
+// let pinkTons =[ 6.5, 32.5, 26, 13.5, 6.5, 32.5, 26]
 
 
 
