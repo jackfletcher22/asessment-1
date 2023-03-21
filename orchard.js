@@ -112,7 +112,7 @@ console.log(averageDailyAcres)
 */
 
 let acresLeft = 174 
-let days = 4
+let days = 5
 
 // CODE HERE
 while( acresLeft > 0) {
